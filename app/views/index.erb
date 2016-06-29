@@ -1,0 +1,42 @@
+<h1>Canucks Database</h1>
+
+<button id="loadPlayers">Load Players</button>
+<button id="addPlayer">Add Player</button>
+<input type="text" id="search" placeholder="Player name"><br>
+
+<div id="results">
+	<table id="canucks">
+		<thead>
+			<tr>
+				<th>Jersey #</th>
+				<th>Player Name</th>
+				<th>Position</th>
+				<th>Height</th>
+				<th>Weight</th>
+        <th>&nbsp;</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+</div>
+
+<div id="playerForm">
+	<fieldset>
+		<legend>Add New Player</legend>
+		<form id="newPlayer">
+			<input type="number" id="jersey" placeholder="Jersey Number"><br>
+			<input type="text" id="name" placeholder="Player Name"><br>
+			<select id="position">
+				<option value="">Choose a position...</option>
+				<option value="C">Center</option>
+				<option value="R">Right Wing</option>
+				<option value="L">Left Wing</option>
+				<option value="D">Defense</option>
+				<option value="G">Goalie</option>
+			</select>
+			<br>
+			<input type="submit" value="Create Player">
+		</form>
+	</fieldset>
+</div>
