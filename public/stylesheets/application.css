@@ -1,1 +1,57 @@
+table { 
+  width: 100%; 
+}
 
+th {
+  font-size: 1.2em;
+}
+
+td {
+  text-align: center;
+}
+
+td:first-child, th:first-child {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #003C81;
+}
+
+dt { 
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+dd {
+  width: 33%;
+}
+
+#controls {
+  margin-bottom: 10px;
+}
+
+button {
+  width: 120px;
+  padding: 8px 10px;
+  color: white;
+  border: 1px solid lightblue;
+}
+
+#controls button {
+  background-color: #003C81;
+}
+
+#playerShow button {
+  background-color: #008852;
+}
+
+#playerShow button[disabled] {
+  background-color: #999;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
